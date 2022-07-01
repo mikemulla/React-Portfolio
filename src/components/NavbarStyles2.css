@@ -1,0 +1,15 @@
+.nav-section1 {
+  background: black;
+}
+.nav-section1 {
+  z-index: 20;
+}
+@media screen and (max-width: 1024px) {
+  .links {
+    margin: 0 auto;
+  }
+  .nav-section1 {
+    position: fixed;
+    width: 100%;
+  }
+}

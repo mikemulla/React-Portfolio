@@ -1,0 +1,82 @@
+.form-container {
+  background-color: black;
+  padding: 60px;
+  color: white;
+}
+.input-text {
+  width: 55%;
+}
+.control-area textarea {
+  height: 190px;
+  resize: none;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-control {
+  height: 50px;
+  background-color: #333;
+  box-shadow: none;
+  outline: none;
+  color: white;
+}
+
+input.form-control:focus,
+textarea:focus,
+textarea.form-control:focus {
+  border: 1px solid white;
+  background: #333;
+  color: white;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+@media screen and (max-width: 1024px) {
+  .input-text {
+    width: 85%;
+  }
+  .form-container {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .input-text {
+    width: 95%;
+  }
+  .form-container {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .input-text {
+    width: 95%;
+  }
+  .form-container {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .input-text {
+    width: 95%;
+  }
+  .form-container {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,12 @@
+.box {
+  border: 1px solid red;
+}
+.nav-section {
+  z-index: 20;
+  background: transparent;
+}
+@media screen and (max-width: 1024px) {
+  .links {
+    margin: 0 auto;
+  }
+}
